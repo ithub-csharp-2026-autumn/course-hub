@@ -1,30 +1,24 @@
-# Course Hub: Итоговый проект по C# 
+# Course Hub — «Язык программирования C#»
 
-Добро пожаловать в центральный репозиторий-хаб дисциплины **«Язык программирования C#»** 
+Центральный репозиторий дисциплины. Кода здесь нет: репозиторий используется **только для общения** через вкладку **[Discussions](https://github.com/ithub-csharp-2026-autumn/course-hub/discussions)** — бронь тем, вопросы и сдача итогового проекта.
 
-Этот репозиторий используется **исключительно для коммуникации, бронирования тем, вопросов и финальной сдачи** через вкладку **Discussions**. Исходный код проектов здесь не хранится.
+> 📌 Перед первым сообщением прочитайте закреплённое обсуждение: [Правила работы в Discussions](https://github.com/ithub-csharp-2026-autumn/course-hub/discussions/1).
 
----
+## Итоговый проект (до 20 дополнительных баллов)
 
-## Быстрый старт 
+Полная инструкция, требования к коду и разбалловка — в шаблонном репозитории **[sa-teach/csharp-workflow-lab](https://github.com/sa-teach/csharp-workflow-lab)**.
 
-### Шаг 1. Забронируйте тему проекта
-Перейдите во вкладку **[Discussions](https://github.com/ithub-csharp-2026-autumn/course-hub/discussions)** этого репозитория и создайте новое обсуждение (категория Q&A):
-* **Заголовок:** `[Бронь темы] Фамилия Имя — Название проекта`
-* **Содержание:** краткое описание предметной области и список ключевых сущностей на C#.
-* **Важно:** дождитесь ответа преподавателя (`@sa-teach`) и обязательно нажмите **Mark as answer** под его сообщением. Без этого переходить к коду нельзя.
-
-### Шаг 2. Создайте свой репозиторий из шаблона
-После утверждения темы перейдите в шаблонный репозиторий задания и нажмите зеленую кнопку **Use this template -> Create a new repository** (не используйте *Fork*!):
-* 🔗 **Шаблонный репозиторий задания и полная инструкция:** **[sa-teach/csharp-workflow-lab](https://github.com/sa-teach/csharp-workflow-lab)**
-
-### Шаг 3. Задавайте вопросы и сдавайте работу здесь
-* Любые технические вопросы по C# (.NET 10), xUnit/NUnit или настройке Git задавайте в **[Discussions](https://github.com/ithub-csharp-2026-autumn/course-hub/discussions)** и не забывайте отмечать решение кнопкой **Mark as answer**.
-* Когда все пункты `docs/PLAN.md` будут выполнены и влиты в `main`, создайте финальный тред в **Discussions** с заголовком: `[Сдача проекта] Фамилия Имя — ссылка на ваш репозиторий`.
-
----
+| Этап | Где | Что сделать |
+|---|---|---|
+| 0. Бронь темы | Discussions → Q&A | Тред `[Бронь темы] Фамилия Имя — Название проекта` по [шаблону](https://github.com/sa-teach/csharp-workflow-lab#6-этап-0-бронь-темы). Дождаться ответа «Тема утверждена» и нажать **Mark as answer** |
+| 1. Репозиторий | GitHub | **Use this template** (не Fork!) → свой публичный репозиторий, `sa-teach` в Collaborators, защита `main` |
+| 2. План | PR из `docs/project-plan` | Заполнить `docs/PLAN.md` и получить Approve. До этого код не пишем |
+| 3. Разработка | PR из `feature/*` | Один этап плана — одна ветка и один PR с ревью |
+| 4. Сдача | Discussions → Q&A | Тред `[Сдача проекта] Фамилия Имя — ссылка на репозиторий`, после проверки — **Mark as answer** |
 
 ## Полезные ссылки
-* **Репозиторий с заданием:** https://github.com/sa-teach/csharp-workflow-lab
-* **Раздел вопросов и сдачи (Discussions):** https://github.com/ithub-csharp-2026-autumn/course-hub/discussions
-* **Преподаватель:** [@sa-teach](https://github.com/sa-teach)
+
+- [20 вариантов тем](https://github.com/sa-teach/csharp-workflow-lab/blob/main/docs/TOPICS.md) — одна тема на одного студента
+- [Критерии оценивания](https://github.com/sa-teach/csharp-workflow-lab/blob/main/docs/GRADING.md)
+- [Задать вопрос или забронировать тему](https://github.com/ithub-csharp-2026-autumn/course-hub/discussions/new/choose)
+- Преподаватель: Andrei Shpatovich ([@sa-teach](https://github.com/sa-teach))
